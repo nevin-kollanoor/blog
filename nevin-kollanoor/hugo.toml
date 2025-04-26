@@ -16,3 +16,20 @@ key = 1
 name = "twitter"
 url = "https://www.example.com"
 
+[[params.social]]
+key = 2
+name = "Linkedin"
+url = "https://www.exampleLinkedin.com"
+
+[params.styles]
+color = "orange"
+
+[params]
+published = false
+readingTime = false
+
+[menu]
+  [[menu.header]]
+    name = "books"
+    weight = 0
+    url = "/books"
