@@ -1,4 +1,4 @@
-[submodule "nevin-kollanoor/files"]
-	path = nevin-kollanoor/files
+[submodule "nevin-kollanoor/public"]
+	path = nevin-kollanoor/public
 	url = https://github.com/nevinkjohn/nevin-kollanoor.github.io.git
 	branch = main
