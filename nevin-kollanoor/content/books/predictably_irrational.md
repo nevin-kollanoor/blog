@@ -72,12 +72,3 @@ title = 'Predictably Irrational- Dan Ariely'
 
 - When we order out loud in sequence, we tend to order a drink different to what others ordered on table
 
-
-
-
-
-
-
-
-
-
