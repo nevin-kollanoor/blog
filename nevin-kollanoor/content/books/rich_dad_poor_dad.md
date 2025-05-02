@@ -18,7 +18,6 @@ Rich dad lessons:
 - The rich buy assets, the poor only have expenses, the middle class buy liabilities that they think are assets 
 - Lack of financial literacy means wealth does not stay with you. Lottery winners often end up broke soon
 - The 21st century illiterate is not the one who can’t read, but the one who can’t learn, unlearn and relearn
-<cash flow pattern>
 - Money without intelligence is money soon gone
 
 ### CH3 - Mind your own business
