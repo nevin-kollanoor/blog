@@ -3,3 +3,6 @@
 	path = nevin-kollanoor/public
 	url = https://github.com/nevinkjohn/nevin-kollanoor.github.io.git
 	branch = main
+[submodule "nevin-kollanoor/themes/PaperMod"]
+	path = nevin-kollanoor/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git

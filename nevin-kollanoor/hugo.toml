@@ -1,35 +1,125 @@
 baseURL = 'https://nevin-kollanoor.github.io/'
 languageCode = 'en-us'
 title = 'Nevin Kollanoor'
-theme = 'nightfall'
+theme = 'PaperMod'
 
-[[params.social]]
-key = 0
-name = "github"
-url = "https://github.com/gohugoio"
-icon = "fa-brands fa-github"  # Add link to your icon font to `layouts/partials/custom-head.html`
-target = "_blank" # Defines your target option in a-href. _blank for a new Tab for example.
-aria = "GitHub Profile" # Define the aria label for accessibility like page reader - this is better for your SEO
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+pygmentsUseClasses = true
 
-[[params.social]]
-key = 1
-name = "twitter"
-url = "https://www.example.com"
-
-[[params.social]]
-key = 2
-name = "Linkedin"
-url = "https://www.exampleLinkedin.com"
-
-[params.styles]
-color = "orange"
+[minify]
+disableXML = true
+minifyOutput = true
 
 [params]
-published = false
-readingTime = false
+env = "production"
+title = "Nevin Kollanoor"
+description = "Personal thought library"
+keywords = [ "Blog", "Portfolio", "PaperMod" ]
+author = "Me"
+images = [ "<link or path of image for opengraph, twitter-cards>" ]
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+ShowWordCount = false
+ShowRssButtonInSectionTermList = false
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
 
-[menu]
-  [[menu.header]]
-    name = "books"
-    weight = 0
-    url = "/books"
+  [params.assets]
+  favicon = "<link / abs url>"
+  favicon16x16 = "<link / abs url>"
+  favicon32x32 = "<link / abs url>"
+  apple_touch_icon = "<link / abs url>"
+  safari_pinned_tab = "<link / abs url>"
+
+  [params.label]
+  text = "Home"
+  icon = "/apple-touch-icon.png"
+  iconHeight = 35
+
+  [params.profileMode]
+  enabled = false
+  title = "ExampleSite"
+  subtitle = "This is subtitle"
+  imageUrl = "<img location>"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "my image"
+
+    [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "posts"
+
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
+  [params.homeInfoParams]
+  Title = "Hi, I'm Nevin"
+  Content = "Welcome to my thought library"
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/nevink/"
+  
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/nevin-kollanoor.com"
+
+  # [[params.socialIcons]]
+  # name = "x"
+  # url = "https://x.com/Nevin__K"
+
+  [[params.socialIcons]]
+  name = "goodreads"
+  url = "https://www.goodreads.com/user/show/19283331-nevin-kollanoor"
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+  # [params.editPost]
+  # URL = "https://github.com/<path_to_repo>/content"
+  # Text = "Suggest Changes"
+  # appendFilePath = true
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  limit = 10
+  keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+identifier = "thoughts"
+name = "thoughts"
+url = "/thoughts/"
+weight = 10
+
+[[menu.main]]
+identifier = "books"
+name = "books"
+url = "/books/"
+weight = 20
+
+
+[markup.highlight]
+noClasses = false
