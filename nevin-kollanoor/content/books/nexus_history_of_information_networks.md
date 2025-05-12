@@ -77,3 +77,9 @@ title = '[WIP] Nexus: History of Information Networks - Yuval Noah Harari'
 - Algorithms impose new orders despite the social media giants' claims that they are mere moderators and government, voters and policy makers are responsible for building the social system. 
 - Just been difficult to get an alignment from humans in bureaucracy which divide a gold and is going to be even more to get that alignment with computer Computer network it's going to be far more often than bureaucracy
 - 2014 book the philosopher, super intelligence had to start experiment where a paperclip company hire a super computer and the manager at the paper factory instructed the computer to produce as many paper clips as possible, and then the computer goes on to conquer and I will eliminate a human and fill the galaxy with the paper 
+
+
+## PART 3: COMPUTER POLITICS
+
+### Chapter 9: DEMOCRACY: CAN WE STILL HOLD A CONVERSATION
+- civilizations are born with the marriage of bureaucracy and mythology
